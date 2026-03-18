@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package
+	xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+	xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+	xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+	xmlns:uap7="https://schemas.microsoft.com/appx/manifest/uap/windows10/7"
+    xmlns:uap8="https://schemas.microsoft.com/appx/manifest/uap/windows10/8"
+	IgnorableNamespaces="uap uap7 uap8 mp">
+  <Identity
+    Name="TripodFound.MinecraftJavaUWP"
+    Version="1.0.14.0"  Publisher="CN=NewDevXb"/>
+  <mp:PhoneIdentity PhoneProductId="a30cc635-1be7-4c5f-b4cf-cdc622880f3e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <Properties>
+    <DisplayName>Minecraft: Java Edition</DisplayName>
+	<PublisherDisplayName>NewDevXb</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="UWPWebView2.App">
+      <uap:VisualElements DisplayName="Minecraft: Java Edition" Description="Explore randomly generated worlds and build amazing things from the simplest of homes to the grandest of castles. Play in creative mode with unlimited resources or mine deep into the world in survival mode, crafting weapons and armor to fend off the dangerous mobs. Scale craggy mountains, unearth elaborate caves, and mine large ore veins. Discover lush cave and dripstone cave biomes. Light up your world with candles to show what a savvy spelunker and master mountaineer you are!"
+        Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent">
+        <uap:DefaultTile  Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\WideTile.png" Square310x310Logo="Assets\LargeTile.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+	  <uap7:Properties>
+        <uap8:ActiveCodePage>UTF-8</uap8:ActiveCodePage>
+      </uap7:Properties>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

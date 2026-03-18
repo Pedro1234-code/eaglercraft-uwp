@@ -1,0 +1,5 @@
+MainPackage=D:\McJavaUWP\x64\Release\SampleXboxExport\Minecraft_UWP_1.0.14.0_x64.msix
+ResourcePack=D:\McJavaUWP\x64\Release\SampleXboxExport\Minecraft_UWP_1.0.14.0_scale-100.msix
+ResourcePack=D:\McJavaUWP\x64\Release\SampleXboxExport\Minecraft_UWP_1.0.14.0_scale-125.msix
+ResourcePack=D:\McJavaUWP\x64\Release\SampleXboxExport\Minecraft_UWP_1.0.14.0_scale-150.msix
+ResourcePack=D:\McJavaUWP\x64\Release\SampleXboxExport\Minecraft_UWP_1.0.14.0_scale-400.msix
