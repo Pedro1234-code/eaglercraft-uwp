@@ -8,7 +8,7 @@
 	IgnorableNamespaces="uap uap7 uap8 mp">
   <Identity
     Name="TripodFound.MinecraftJavaUWP"
-    Version="1.0.14.0"  Publisher="CN=NewDevXb"/>
+    Version="1.0.16.0"  Publisher="CN=NewDevXb"/>
   <mp:PhoneIdentity PhoneProductId="a30cc635-1be7-4c5f-b4cf-cdc622880f3e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
   <Properties>
     <DisplayName>Minecraft: Java Edition</DisplayName>
